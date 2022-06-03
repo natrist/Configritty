@@ -1,0 +1,42 @@
+# Window configuration
+window:
+  opacity: 0.90
+  dimensions:
+    columns: 80
+    lines: 20
+
+# Font configuration
+font:
+  size: 13
+
+  # Normal font face
+  normal:
+    family: IBM Plex Mono
+    style: Regular
+
+  # Bold font face
+  bold:
+    style: Bold
+
+  # Italic font face
+  italic:
+    style: Italic
+
+# Cursor configuration
+cursor:
+  style:
+    shape: Beam
+    blinking: On
+
+  # Blinking interval (in milliseconds)
+  blink_interval: 500
+  
+  unfocused_hollow: false
+
+# Selection configuration
+selection:
+  save_to_clipboard: true
+
+# Key bindings
+key_bindings:
+   - { key: Back, mods: Control, chars: "\u0017" }
